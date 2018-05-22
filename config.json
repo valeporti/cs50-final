@@ -1,7 +1,7 @@
 {
     "database": {
-        "host": "localhost",
-        "name": "cs50final",
+        "host": "http://cs50final-vp.herokuapp.com",
+        "name": "cs50final-vp",
         "username": "root",
         "password": "1234"
     }
