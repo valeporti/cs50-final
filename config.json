@@ -1,0 +1,8 @@
+{
+    "database": {
+        "host": "localhost",
+        "name": "cs50final",
+        "username": "root",
+        "password": "1234"
+    }
+}
