@@ -5,9 +5,9 @@
     <head>
         
         <!-- http://getbootstrap.com/ -->
-        <link href="/css/bootstrap.min.css" rel="stylesheet"/>
+        <link href="/public/css/bootstrap.min.css" rel="stylesheet"/>
 
-        <link href="/css/styles.css" rel="stylesheet"/>
+        <link href="/public/css/styles.css" rel="stylesheet"/>
 
         <!-- Estas 5 lineas son para decidir lo que se pone en la parte de la pestaña -->
         <?php if (isset($title)): ?>
@@ -17,24 +17,24 @@
         <?php endif ?>
 
         <!-- https://jquery.com/ -->
-        <script src="/js/jquery-1.11.3.min.js"></script>
+        <script src="/public/js/jquery-1.11.3.min.js"></script>
 
         <!-- http://getbootstrap.com/ -->
-        <script src="/js/bootstrap.min.js"></script>
+        <script src="/public/js/bootstrap.min.js"></script>
 
         <!-- Local javascript libaries -->
-        <script src="/js/scripts.js"></script>
-        <script src="/js/charts.js"></script>
-        <script src="/js/scripts2.js"></script>
+        <script src="/public/js/scripts.js"></script>
+        <script src="/public/js/charts.js"></script>
+        <script src="/public/js/scripts2.js"></script>
         
         <!-- http://getD3Library.com -->
         <script src="https://d3js.org/d3.v4.js"></script>
         
         <!-- http://underscorejs.org/ -->
-        <script src="/js/underscore-min.js"></script>
+        <script src="/public/js/underscore-min.js"></script>
         
         <!-- https://github.com/twitter/typeahead.js/ -->
-        <script src="/js/typeahead.jquery.min.js"></script>
+        <script src="/public/js/typeahead.jquery.min.js"></script>
         
         <!-- Estas 5 lineas son para decidir lo que se pone en la parte de la pestaña -->
         <?php if (isset($title)): ?>
