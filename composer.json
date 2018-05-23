@@ -5,6 +5,9 @@
         ]
     },
     "require": {
-        "ext-bcmath": "*"
+        "ext-bcmath": "*",
+        "ext-gmp": "*",
+        "ext-curl": "*",
+        "ext-dom": "*"
     }
 }
