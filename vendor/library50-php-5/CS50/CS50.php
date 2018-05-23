@@ -301,17 +301,19 @@
                 try
                 {
                     // connect to database
-                    /*
+                    
                     $handle = new PDO(
                         "mysql:dbname=" . self::$config["database"]["name"] . ";host=" . self::$config["database"]["host"],
                         self::$config["database"]["username"],
                         self::$config["database"]["password"]
-                    );*/
+                    );
+                    /*
                     $handle = new PDO(
                         "mysql://pg5wwhs2uc5lik8z:h2jwwxf0gx41eusx@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/numoaw7nalvyayct",
                         self::$config["database"]["username"],
                         self::$config["database"]["password"]
                     );
+                    */
                 }
                 catch (Exception $e)
                 {
