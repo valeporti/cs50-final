@@ -19,5 +19,5 @@
     </fieldset>
 </form>
 <div>
-    or <a href="login.php">log in</a>
+    or <a href="/public/login.php">log in</a>
 </div>

@@ -692,7 +692,7 @@ function congratsReload() {
     $("#camu").delay(1500).fadeOut("slow");
     
     timeOut = setTimeout(function() {
-        window.location.href = '/recipes.php';
+        window.location.href = 'public/recipes.php';
     }, 1500);
 }
 

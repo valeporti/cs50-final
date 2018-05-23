@@ -1,1 +1,1 @@
-<li><a href="change_pass.php">change Password</a></li>
+<li><a href="/public/change_pass.php">change Password</a></li>
