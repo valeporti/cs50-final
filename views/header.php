@@ -63,13 +63,13 @@
                 <!-- En caso de que ya tengan una sesión iniciada, se despliegan lasdiferentes opciones -->
                 <?php if (!empty($_SESSION["id"])): ?>
                     <ul class="nav nav-pills">
-                        <li><a href="MENU.php">MENU</a></li>
-                        <li><a href="ModMENU.php">Edit Menu</a></li>
-                        <li><a href="recipes.php">RecipeS</a></li>
-                        <li><a href="ASelRecipe.php">CookIt</a></li>
-                        <li><a href="shop.php">ShopIt</a></li>
-                        <li><a href="graphs.php">Graphs</a></li>
-                        <li><a href="logout.php"><strong>Log Out</strong></a></li>
+                        <li><a href="/public/MENU.php">MENU</a></li>
+                        <li><a href="/public/ModMENU.php">Edit Menu</a></li>
+                        <li><a href="/public/recipes.php">RecipeS</a></li>
+                        <li><a href="/public/ASelRecipe.php">CookIt</a></li>
+                        <li><a href="/public/shop.php">ShopIt</a></li>
+                        <li><a href="/public/graphs.php">Graphs</a></li>
+                        <li><a href="/public/logout.php"><strong>Log Out</strong></a></li>
                     </ul>
                 <?php endif ?>
             </div>
