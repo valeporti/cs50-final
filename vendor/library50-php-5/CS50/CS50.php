@@ -293,7 +293,7 @@
 
             // parameters, if any
             $parameters = array_slice(func_get_args(), 1);
-
+//mysql://pg5wwhs2uc5lik8z:h2jwwxf0gx41eusx@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/numoaw7nalvyayct
             // try to connect to database
             static $handle;
             if (!isset($handle))
@@ -301,8 +301,14 @@
                 try
                 {
                     // connect to database
+                    /*
                     $handle = new PDO(
                         "mysql:dbname=" . self::$config["database"]["name"] . ";host=" . self::$config["database"]["host"],
+                        self::$config["database"]["username"],
+                        self::$config["database"]["password"]
+                    );*/
+                    $handle = new PDO(
+                        "mysql://pg5wwhs2uc5lik8z:h2jwwxf0gx41eusx@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/numoaw7nalvyayct",
                         self::$config["database"]["username"],
                         self::$config["database"]["password"]
                     );
